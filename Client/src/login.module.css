@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Lato', sans-serif;
+
+}
+.container {
+    display: flex;
+    justify-content: center;
+    background:#332941;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}
+.signin {
+    width: 340px;
+    height: 500px;
+    background-color: #864AF9;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.signin .content {
+    width: 90%;
+    height: 80%;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+}
+.signin .content h2 {
+    font-size: 30px;
+    text-align: center;
+    font-weight: 700;
+    color: white;
+}
+.signin .content .form {
+    width: 100%;
+    height: 50%;
+    margin-top: 8%;
+}
+.signin .content .form .inputBx {
+    width: 100%;
+    height: 45px;
+    position: relative;
+    margin: 20px 0px;
+}
+.signin .content .form .inputBx input {
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    position: absolute;
+   
+}
+.signin .content .form .inputBx > label {
+    position: absolute;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left: 10px;
+    transition: 0.5s;
+}
+.signin .content .form .inputBx input:focus ~ label,
+.signin .content .form .inputBx input:valid ~ label {
+    font-size: 10px;
+    transform: translateY(-10px);
+}
+
+.signin .content .form .inputBx input[type="submit"] {
+    background: #F8E559;
+    font-size: 20px;
+    margin-top: 25px;
+}
+.signin .content .text {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: white;
+}
+.signin .content .text h5 {
+    font-size: 15px;
+    margin-top: 10px;
+}
+.signin .content .text h5:nth-child(2) {
+    color: #F8E559;
+    margin-right: 3px;
+}
+.signin .content .line {
+    width: 100%;
+    height: 2px;
+    background: #F8E559;
+}
+.signin .content .inputBx input[type="submit"] {
+    width: 100%;
+    height: 50px;
+    background: #F8E559;
+    font-size: 20px;
+    margin-top: 25px;
+}
